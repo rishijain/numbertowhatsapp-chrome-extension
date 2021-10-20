@@ -3,9 +3,6 @@
   "name": "NumberToWhatsapp Chrome Plugin",
   "description": "Whatsapp Plugin to send messages without saving the number",
   "version": "1.0.0",
-  "permissions": [
-    "activeTab"
-  ],
   "background": {
     "scripts": ["background.js"]
   },
