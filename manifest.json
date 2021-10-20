@@ -3,18 +3,8 @@
   "name": "Whatsapp Chrome Plugin",
   "description": "Whatsapp Plugin to send messages without saving the number",
   "version": "1.0.0",
-  "content_scripts":[
-    {
-      "matches":[
-        "https://www.youtube.com/*"
-      ],
-      "js": ["content.js"]
-    }
-  ],
   "permissions": [
-    "activeTab",
-    "storage",
-    "https://ajax.googleapis.com/"
+    "activeTab"
   ],
   "background": {
     "scripts": ["background.js"]
